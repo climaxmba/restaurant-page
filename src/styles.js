@@ -51,6 +51,9 @@ body {
 #footer {
     margin-top: 1rem;
     padding: 1.2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 #footer a {
     color: black;

@@ -91,7 +91,7 @@ const page = {
         <li><span>Phone: </span><span>555-555-555</span></li>
         <li><span>Email: </span><span>support@reallycoolresturant.com</span></li>
     </ul>`,
-    footerHtml: `<a href="#">Source code</a>`
+    footerHtml: `<a href="https://www.pexels.com/photo/chairs-and-tables-in-hotel-3201921/">Photo by Quark Studio</a><span>|</span><a href="#">Source code</a>`
 }
 
 function clearContent() {
