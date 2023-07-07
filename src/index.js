@@ -1,1 +1,3 @@
-console.log('Hello, world');
+import initPage from './pages.js';
+
+initPage();
