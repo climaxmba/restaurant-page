@@ -30,7 +30,7 @@ const page = {
     #header::before {
         content: "";
         background-color: black;
-        opacity: 0.5;
+        opacity: 0.6;
         position: absolute;
         top: 0;
         bottom: 0;
