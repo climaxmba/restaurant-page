@@ -1,4 +1,4 @@
-import mainImg from "./main.jpg";
+import mainImg from "./img/main.jpg";
 
 const content = document.getElementById("content"),
   header = document.createElement("div"),

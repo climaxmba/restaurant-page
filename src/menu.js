@@ -1,6 +1,6 @@
-import beverageImg from './tinto.jpg';
-import dishImg from './ribollita.jpg';
-import dessertImg from './chocolate cake.jpg';
+import beverageImg from './img/tinto.jpg';
+import dishImg from './img/ribollita.jpg';
+import dessertImg from './img/chocolate cake.jpg';
 import { content } from './pages.js';
 
 const menu = document.createElement("div"),
