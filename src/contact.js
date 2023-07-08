@@ -25,4 +25,5 @@ contact.appendChild(contactStyle);
 export default function appendContact() {
     content.insertBefore(contact, content.lastChild);
     document.getElementById("headertext").textContent = contactTxt;
+    document.title = contactTxt;
 }

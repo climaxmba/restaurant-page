@@ -60,4 +60,5 @@ home.appendChild(homeStyle);
 export default function appendHome() {
   content.insertBefore(home, content.lastChild);
   document.getElementById("headertext").textContent = homeTxt;
+  document.title = homeTxt;
 }

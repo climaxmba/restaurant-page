@@ -122,4 +122,5 @@ export default function appendMenu() {
   ).style.background = `url('${beverageImg}') 0% 0% / cover`;
 
   document.getElementById("headertext").textContent = menuTxt;
+  document.title = menuTxt;
 }
