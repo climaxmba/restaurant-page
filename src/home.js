@@ -43,7 +43,7 @@ homeStyle.innerHTML = `#homepage {
 #workinfo > div {
     width: 285px;
     padding: 1rem 2.5rem;
-    background-color: #9b4400;
+    background-color: darkgoldenrod;
     color: white;
 }
 #workinfo h2 {

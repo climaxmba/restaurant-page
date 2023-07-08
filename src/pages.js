@@ -1,4 +1,4 @@
-import mainImg from "./main.jpg"
+import mainImg from "./main.jpg";
 
 const content = document.getElementById("content"),
   header = document.createElement("div"),
@@ -9,12 +9,14 @@ const page = {
   headerHtml: `<div id="nav-bar"><span class="active-tab tab">Home</span><span class="tab">Menu</span><span class="tab">Contact</span></div>
     <h1 id="headertext" class="center">Cocina de la Emperatriz</h1>`,
   footerHtml: `<a href="https://www.pexels.com/photo/chairs-and-tables-in-hotel-3201921/">Photo by Quark Studio</a><span>|</span><a href="https://github.com/climaxmba/restaurant-page">Source code</a>`,
-  baseStyleHtml: `* {
+  baseStyleHtml: `@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  * {
         box-sizing: border-box;
     }
     body {
         margin: 0;
         background-color: burlywood;
+        font-family: 'Noto Serif', serif;
     }
     #content {
         display: grid;
@@ -54,6 +56,8 @@ const page = {
     }
     #headertext {
         margin: 6rem 0;
+        font-size: 2.75rem;
+        font-family: 'Noto Serif Display', serif;
     }
     .center {
         text-align: center;
