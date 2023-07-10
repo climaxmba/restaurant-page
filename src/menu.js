@@ -12,15 +12,15 @@ menu.innerHTML = `<div id="dishes-contr">
 <div class="foods center">
     <div>
         <h3>Pork carnitas</h3>
-        <p>$15.46</p>
+        <p class="prices">$15.46</p>
     </div>
     <div>
         <h3>Gnocci</h3>
-        <p>$13.15</p>
+        <p class="prices">$13.15</p>
     </div>
     <div>
         <h3>Ribollita</h3>
-        <p>$8.17</p>
+        <p class="prices">$8.17</p>
     </div>
 </div>
 </div>
@@ -29,15 +29,15 @@ menu.innerHTML = `<div id="dishes-contr">
 <div class="foods center">
     <div>
         <h3>Chocolate cake</h3>
-        <p>$8.00</p>
+        <p class="prices">$8.00</p>
     </div>
     <div>
         <h3>Gingerbread</h3>
-        <p>$5.20</p>
+        <p class="prices">$5.20</p>
     </div>
     <div>
         <h3>Apple pie</h3>
-        <p>$6.17</p>
+        <p class="prices">$6.17</p>
     </div>
 </div>
 </div>
@@ -46,21 +46,21 @@ menu.innerHTML = `<div id="dishes-contr">
 <div class="foods center">
     <div>
         <h3>Verdejo</h3>
-        <p>$15.20</p>
+        <p class="prices">$15.20</p>
     </div>
     <div>
         <h3>Tinto de Verano</h3>
-        <p>$36.00</p>
+        <p class="prices">$36.00</p>
     </div>
     <div>
         <h3>Ribera del Duero</h3>
-        <p>$28.60</p>
+        <p class="prices">$28.60</p>
     </div>
 </div>
 </div>`;
 menuStyle.innerHTML = `#menupage {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin: 1rem 0;
 }
 #menupage > div {
@@ -101,6 +101,12 @@ menuStyle.innerHTML = `#menupage {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 16px;
+}
+p.prices {
+    padding: 2px 8px;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+    display: inline-block;
 }`;
 
 menu.setAttribute("class", "main");
