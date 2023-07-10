@@ -27,3 +27,8 @@ Restaurant page project from TheOdinProject's [curriculum](https://www.theodinpr
 ## 🐛 Found a bug?
 
 Feel free to create a _New issue_.
+
+## ✍ Credits
+
+- Photo by [Quark Studio](https://www.pexels.com/photo/chairs-and-tables-in-hotel-3201921/)
+- Food photos generated from [Open.Ai](https://www.open.ai/).
